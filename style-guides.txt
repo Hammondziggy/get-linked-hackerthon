@@ -1,0 +1,46 @@
+###Colours
+Primary Colour ==> background: linear-gradient(270deg, #903AFF 0%, #FE34B9 100%);
+Background Colour ==> #150E28;
+SpotLight ==> 903AFF;
+Text Colour ==> D434FE;
+
+Note: To Acess The Primary Colour Just Add "btn-color" to Your ClassList.
+Check the TailwindConfig 4 more info...
+
+Typography
+Font Family ==> {
+   headers: Clash Display, ==>font-serif
+   Primary:  Montserrat===>font-sans
+}
+
+Mobile 
+Header text {
+   color: #fff,
+   font-family: Clash Display
+   font-size: 15px;
+   font-style:normal;
+   font-weight: 700;
+   line-normal: normal;
+}
+
+NavLinks {
+   color: #fff;
+   font-family: Inter;
+   font-size: 18px;
+   font-style:normal;
+   font-weight: 500;
+   line-height: normal;
+   letter-spacing: -1px;
+}
+nav-border-bottom {
+   width:390px;
+   height:0;
+   background: rgba(255, 255, 255, 0.18);
+}
+
+buttons {
+   width: 172px;
+   height: 53px;
+   border-radius- 4px;
+   background: btn-color
+}
