@@ -7,6 +7,8 @@ Text Colour ==> D434FE;
 Note: To Acess The Primary Colour Just Add "btn-color" to Your ClassList.
 Check the TailwindConfig 4 more info...
 
+For the Images => Images.js
+
 Typography
 Font Family ==> {
    headers: Clash Display, ==>font-serif

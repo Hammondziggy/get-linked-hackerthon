@@ -1,9 +1,14 @@
 import "./App.css";
-
+import Navbar from "./Components/Navbar/Navbar";
+import Main from "./Components/Main/Main";
+import Footer from "./Components/Footer/Footer";
+// import images from "./images";
 const App = () => {
   return (
-    <div className="text-red-800 p-10  m-auto w-60 h-60 translate-y-96 text-6xl font-serif">
-      Let Get Started!!!
+    <div className="relative text-white font-serif text-2xl bg-background h-screen">
+      <Navbar />
+      <Main />
+      <Footer />
     </div>
   );
 };
