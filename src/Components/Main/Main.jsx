@@ -10,15 +10,15 @@ import Privacy from "../Privacy/Privacy";
 
 const Main = () => (
   <div>
-    <Hero />
+    {/* <Hero /> */}
     <About />
     <Rules />
     <Criteria />
-    <FrequntlyAskedQuestions />
-    <Timeline />
-    <Rewards />
-    <Partners />
-    <Privacy />
+    {/* <FrequntlyAskedQuestions /> */}
+    {/* <Timeline /> */}
+    {/* <Rewards /> */}
+    {/* <Partners /> */}
+    {/* <Privacy /> */}
   </div>
 );
 export default Main;

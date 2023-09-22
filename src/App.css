@@ -8,8 +8,20 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: #150E28;
+}
+
 @layer {
   .btn-color {
     background: linear-gradient(270deg, #903aff 0%, #fe34b9 100%);
   }
+}
+
+.circle {
+  width: 200px;
+  height: 200px;
+  background-color: #903AFF; 
+  border-radius: 50%; 
+  filter: blur(70px); 
 }
