@@ -12,6 +12,7 @@ export default {
     fontFamily: {
       sans: ["Clash Display", "sans-serif"],
       serif: ["Montserrat", "serif"],
+      unica: ["Unica One", "cursive"],
     },
     extend: {},
   },

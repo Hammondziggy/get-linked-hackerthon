@@ -5,8 +5,13 @@ import Footer from "./Components/Footer/Footer";
 
 const App = () => {
   return (
+<<<<<<< HEAD
     <div className="relative text-white font-serif text-2xl bg-background h-screen">
       {/* <Navbar /> */}
+=======
+    <div className="relative text-white font-serif text-2xl bg-background h-fit">
+      <Navbar />
+>>>>>>> fa527f1fc58633fb2b8a50053557ebbc5d7c49a3
       <Main />
       {/* <Footer /> */}
     </div>

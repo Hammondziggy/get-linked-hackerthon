@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Unica+One&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -7,17 +9,21 @@
   padding: 0;
   box-sizing: border-box;
 }
+<<<<<<< HEAD
 
 body {
   background-color: #150E28;
 }
 
+=======
+>>>>>>> fa527f1fc58633fb2b8a50053557ebbc5d7c49a3
 @layer {
   .btn-color {
     background: linear-gradient(270deg, #903aff 0%, #fe34b9 100%);
   }
 }
 
+<<<<<<< HEAD
 .circle {
   width: 200px;
   height: 200px;
@@ -25,3 +31,18 @@ body {
   border-radius: 50%; 
   filter: blur(70px); 
 }
+=======
+.hide {
+  transform: scale(0);
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.show {
+  visibility: visible;
+  opacity: 1;
+  transform: scale(1);
+  z-index: 100;
+}
+>>>>>>> fa527f1fc58633fb2b8a50053557ebbc5d7c49a3
