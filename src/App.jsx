@@ -5,7 +5,7 @@ import Footer from "./Components/Footer/Footer";
 // import images from "./images";
 const App = () => {
   return (
-    <div className="relative text-white font-serif text-2xl bg-background h-screen">
+    <div className="relative text-white font-serif text-2xl bg-background h-fit">
       <Navbar />
       <Main />
       <Footer />

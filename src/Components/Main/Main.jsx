@@ -9,7 +9,7 @@ import Partners from "../Partners/Partners";
 import Privacy from "../Privacy/Privacy";
 
 const Main = () => (
-  <div>
+  <main>
     <Hero />
     <About />
     <Rules />
@@ -19,6 +19,6 @@ const Main = () => (
     <Rewards />
     <Partners />
     <Privacy />
-  </div>
+  </main>
 );
 export default Main;

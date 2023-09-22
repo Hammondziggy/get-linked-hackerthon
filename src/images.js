@@ -9,19 +9,20 @@ import emoji from "../assets/images/emoji.png";
 import gold from "../assets/images/gold_medal.png";
 import guidelines from "../assets/images/guidelines.png";
 import hero from "../assets/images/hero.png";
+import spack from "../assets/images/spack_light.png";
 import judges from "../assets/images/judges.png";
 import company1 from "../assets/images/company1.png";
 import company2 from "../assets/images/liberty_company.png";
 import company3 from "../assets/images/winwise.png";
 import company4 from "../assets/images/wisper.png";
 import lock from "../assets/images/lock.png";
+import menu from "../assets/images/menu.svg";
 import manWithGlasses from "../assets/images/man-wearing-smart-glasses.png";
 import manWithKey from "../assets/images/man-with-key.png";
 import purpleLens1 from "../assets/images/Purple-Lens1.png";
 import purpleLens2 from "../assets/images/Purple-Lens2.png";
 import star from "../assets/images/star.png";
 import star1 from "../assets/images/star1.png";
-import star2 from "../assets/images/star2.png";
 import star3 from "../assets/images/sata_gra.png";
 import star4 from "../assets/images/star_pu.png";
 import successfulMan from "../assets/images/successful-man.png";
@@ -29,9 +30,11 @@ import successful from "../assets/images/successfully-done.png";
 import terms from "../assets/images/terms.png";
 import idea from "../assets/images/big_idea.png";
 import throphy from "../assets/images/throphy.png";
+import metrix from "../assets/images/metrix.png";
 
 const images = {
   arrow,
+  metrix,
   asked,
   stroke,
   bronze,
@@ -54,7 +57,6 @@ const images = {
   purpleLens2,
   star,
   star1,
-  star2,
   star3,
   star4,
   successfulMan,
@@ -62,6 +64,8 @@ const images = {
   terms,
   idea,
   throphy,
+  menu,
+  spack,
 };
 
 export default images;
